@@ -24,8 +24,8 @@ class FragmentB : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-        textB.setOnClickListener {
-            requireActivity().findNavController(R.id.nav_host_fragment).navigate(R.id.action_mainFragment_to_blankFragment)
+        detailButton.setOnClickListener {
+            requireActivity().findNavController(R.id.nav_host_fragment).navigate(R.id.action_mainFragment_to_fragmentTopic)
         }
     }
 }

@@ -11,13 +11,23 @@
         android:label="main_fragment"
         tools:layout="@layout/home_fragment">
         <action
-            android:id="@+id/action_mainFragment_to_blankFragment"
-            app:destination="@id/detailBFragment" />
+            android:id="@+id/action_mainFragment_to_fragmentTopic"
+            app:destination="@id/fragmentTopic" />
+        <action
+            android:id="@+id/action_mainFragment_to_playScreenFragment"
+            app:destination="@id/playScreenFragment" />
     </fragment>
 
     <fragment
-        android:id="@+id/detailBFragment"
-        android:name="com.example.navcompenenttest.VideoFragment"
-        android:label="fragment_detail_b"
-        tools:layout="@layout/fragment_video" />
+        android:id="@+id/fragmentTopic"
+        android:name="com.example.navcompenenttest.FragmentTopic"
+        android:label="FragmentTopic" />
+
+    <fragment
+        android:id="@+id/playScreenFragment"
+        android:name="com.example.navcompenenttest.motionlayout.PlayScreenFragment"
+        android:label="PlayScreenFragment"
+        tools:layout="@layout/fragment_play_screen"/>
+
+
 </navigation>

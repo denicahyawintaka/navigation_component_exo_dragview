@@ -6,8 +6,8 @@ import android.os.Build
 import android.os.Bundle
 import androidx.annotation.RequiresApi
 import androidx.appcompat.app.AppCompatActivity
-import androidx.navigation.NavController
 import androidx.navigation.fragment.NavHostFragment
+import com.example.navcompenenttest.motionlayout.PlayScreenFragment
 
 
 class MainActivity : AppCompatActivity() {
@@ -17,8 +17,17 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.main_activity)
-        navHostFragment = supportFragmentManager.findFragmentById(R.id.nav_host_fragment) as NavHostFragment
+        navHostFragment =
+            supportFragmentManager.findFragmentById(R.id.nav_host_fragment) as NavHostFragment
     }
+
+    fun openMotionLayout(){
+        supportFragmentManager
+            .beginTransaction()
+            .replace(R.id.play_screen_frame_layout, PlayScreenFragment.newInstance(), PlayScreenFragment.TAG)
+            .commit()
+    }
+
 
     @RequiresApi(Build.VERSION_CODES.O)
     override fun onUserLeaveHint() {

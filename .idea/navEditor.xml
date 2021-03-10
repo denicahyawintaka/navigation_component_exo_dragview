@@ -13,7 +13,7 @@
                       <LayoutPositions>
                         <option name="myPosition">
                           <Point>
-                            <option name="x" value="-174" />
+                            <option name="x" value="-473" />
                             <option name="y" value="151" />
                           </Point>
                         </option>
@@ -42,25 +42,13 @@
             <LayoutPositions>
               <option name="myPositions">
                 <map>
-                  <entry key="detailBFragment">
+                  <entry key="fragmentTopic">
                     <value>
                       <LayoutPositions>
                         <option name="myPosition">
                           <Point>
-                            <option name="x" value="182" />
-                            <option name="y" value="-338" />
-                          </Point>
-                        </option>
-                      </LayoutPositions>
-                    </value>
-                  </entry>
-                  <entry key="home_fragment_flow_graph">
-                    <value>
-                      <LayoutPositions>
-                        <option name="myPosition">
-                          <Point>
-                            <option name="x" value="-448" />
-                            <option name="y" value="-1652" />
+                            <option name="x" value="72" />
+                            <option name="y" value="-250" />
                           </Point>
                         </option>
                       </LayoutPositions>
@@ -71,18 +59,30 @@
                       <LayoutPositions>
                         <option name="myPosition">
                           <Point>
-                            <option name="x" value="-120" />
-                            <option name="y" value="-284" />
+                            <option name="x" value="-228" />
+                            <option name="y" value="-237" />
                           </Point>
                         </option>
                         <option name="myPositions">
                           <map>
-                            <entry key="action_mainFragment_to_blankFragment">
+                            <entry key="action_mainFragment_to_fragmentTopic">
                               <value>
                                 <LayoutPositions />
                               </value>
                             </entry>
                           </map>
+                        </option>
+                      </LayoutPositions>
+                    </value>
+                  </entry>
+                  <entry key="playScreenFragment">
+                    <value>
+                      <LayoutPositions>
+                        <option name="myPosition">
+                          <Point>
+                            <option name="x" value="29" />
+                            <option name="y" value="-664" />
+                          </Point>
                         </option>
                       </LayoutPositions>
                     </value>

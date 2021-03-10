@@ -9,7 +9,11 @@
         android:id="@+id/fragmentA2"
         android:name="com.example.navcompenenttest.FragmentA"
         android:label="fragment_a"
-        tools:layout="@layout/fragment_a" />
+        tools:layout="@layout/fragment_a" >
+        <action
+            android:id="@+id/action_fragmentA2_to_fragmentB2"
+            app:destination="@id/fragmentB2" />
+    </fragment>
 
     <fragment
         android:id="@+id/fragmentB2"
